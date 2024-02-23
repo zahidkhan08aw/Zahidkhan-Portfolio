@@ -1,0 +1,52 @@
+.contactcontainer h1 {
+  text-align: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.contactcontainer span {
+  color: red;
+}
+.contactform h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content input {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 250px;
+  border-radius: 12px;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+.content textarea {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100px;
+  padding: 5px 20px;
+  font-size: 18px;
+}
+.content {
+  margin: 20px 0px;
+  font-size: 18px;
+}
+.content label {
+  color: yellow;
+}
+.button button {
+  background-color: green;
+  padding: 10px 16px;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#popup {
+  display: none;
+}

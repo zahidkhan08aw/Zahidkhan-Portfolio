@@ -1,0 +1,52 @@
+.foot {
+  background-color: #000000ff;
+  width: 100%;
+  min-height: 300px;
+  padding: 3rem 1rem;
+  margin-top: 6rem;
+  color: white;
+}
+.container {
+  background-color: rgb(46, 45, 45);
+  display: flex;
+  max-width: 100%;
+
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.column {
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  min-width: 250px;
+  padding: 0rem 2rem;
+}
+.column li {
+  padding: 8px 0;
+}
+.linkss {
+  color: white;
+  row-gap: 15px;
+}
+
+@media (max-width: 1100px) {
+  .row {
+    flex-direction: column;
+    height: 600px;
+  }
+  .column {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .foot {
+    height: 700px;
+    width: 100%;
+  }
+}

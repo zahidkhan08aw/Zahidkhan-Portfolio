@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  width: 100%;
+  align-items: center;
+}
+.li {
+  display: flex;
+  gap: 40px;
+}
+.link {
+  color: white;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: green;
+  text-decoration: dashed;
+}
+.mainsocial {
+  display: flex;
+  gap: 20px;
+}
+.brandname {
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+@media (max-width: 720px) {
+  .li {
+    display: flex;
+    gap: 8px;
+  }
+  .brandname {
+    font-size: 15px;
+  }
+  .link {
+    font-size: 10px;
+  }
+  .mainsocial {
+    display: flex;
+    gap: 8px;
+  }
+  .navbar {
+    padding: 1px 10px;
+  }
+  .socialicon {
+    font-size: 15px;
+  }
+}

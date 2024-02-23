@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  row-gap: 30px;
+}
+.container span {
+  color: red;
+}
+.githublink {
+  text-align: center;
+}
+.projects a {
+  color: white;
+  font-size: 22px;
+  border: 1px solid white;
+  width: 300px;
+  background-color: green;
+  padding: 3px 5px;
+}

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+  margin: 20px 20px;
+}
+.about span {
+  color: red;
+}
+.skill span {
+  color: white;
+  background-color: rgb(255, 0, 251);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+.info span {
+  color: red;
+}
+.info p {
+  color: yellow;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: normal;
+}
+.info li {
+  color: yellow;
+  letter-spacing: normal;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.skillpng {
+  background-color: rgb(244, 146, 243);
+  color: black;
+}
+.getintouch {
+  color: yellow;
+}
+.getintouch span {
+  color: red;
+}
