@@ -39,6 +39,9 @@
 .content label {
   color: yellow;
 }
+.button {
+  margin-bottom: 25px;
+}
 .button button {
   background-color: green;
   padding: 10px 16px;

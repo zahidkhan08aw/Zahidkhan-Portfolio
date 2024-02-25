@@ -1,15 +1,9 @@
-.foot {
-  background-color: #000000ff;
-  width: 100%;
-  min-height: 300px;
-  padding: 3rem 1rem;
-  margin-top: 6rem;
-  color: white;
-}
 .container {
   background-color: rgb(46, 45, 45);
   display: flex;
   max-width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 
   flex-direction: column;
 }
@@ -36,6 +30,9 @@
 }
 
 @media (max-width: 1100px) {
+  .container {
+    height: 700px;
+  }
   .row {
     flex-direction: column;
     height: 650px;
