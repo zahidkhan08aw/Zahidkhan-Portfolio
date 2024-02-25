@@ -38,7 +38,7 @@
 @media (max-width: 1100px) {
   .row {
     flex-direction: column;
-    height: 600px;
+    height: 650px;
   }
   .column {
     width: 100%;

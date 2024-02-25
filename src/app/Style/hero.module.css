@@ -29,6 +29,7 @@
   border-radius: 10px;
   background-color: yellow;
   font-size: 15px;
+  border: 1px solid green;
 }
 @media (max-width: 1160px) {
   .conatiner {
