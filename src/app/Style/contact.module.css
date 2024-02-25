@@ -20,8 +20,7 @@
   flex-direction: column;
   height: 40px;
   width: 250px;
-  border: 1px solid grey;
-  border-radius: 18px;
+  border-radius: 12px;
   padding: 5px 20px;
   font-size: 18px;
 }
@@ -41,7 +40,7 @@
   color: yellow;
 }
 .button {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .button button {
   background-color: green;
