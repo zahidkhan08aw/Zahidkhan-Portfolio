@@ -20,7 +20,8 @@
   flex-direction: column;
   height: 40px;
   width: 250px;
-  border-radius: 12px;
+  border: 1px solid grey;
+  border-radius: 18px;
   padding: 5px 20px;
   font-size: 18px;
 }
